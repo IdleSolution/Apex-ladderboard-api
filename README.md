@@ -6,7 +6,7 @@
 **How to use**
 
 
- Every single request to the API is a POST request<br/>
+ Every single request to the API is a POST request<br/><br/><br/>
 
  -  Getting top 100 users by **kills**:
 
