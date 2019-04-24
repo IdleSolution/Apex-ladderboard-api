@@ -6,7 +6,7 @@
 **How to use**
 
 
- Every single request to the API is a POST request
+ Every single request to the API is a POST request<br/>
 
  -  Getting top 100 users by **kills**:
 
@@ -39,11 +39,11 @@ Example of data you get (the order depends on the request):
         "level": 483
     },
     {
-        "username": "NRG_dizzy",
+        "username": "RhinoTTV",
         "platform": "PC",
-        "kills": 17296,
-        "level": 462
-    }
+        "kills": 17051,
+        "level": 464
+    },
 	]
 <br />
 <br />
@@ -61,12 +61,12 @@ Example of data you get (the order depends on the request):
 	Every single user that is looked on through either of these methods is automatically added to my database. 
 
 
- 
+ <br/>
 
  - To **update** stats of a single user, you will need to call:
 	
 	    https://my-apex-api.openode.io/stats/update
-<br/>
+
 
 The body of both update and get requests takes following parameters:
 
