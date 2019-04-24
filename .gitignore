@@ -1,0 +1,5 @@
+node_modules
+models/passwords.js
+.openode
+docker-compose.yml
+Dockerfile
