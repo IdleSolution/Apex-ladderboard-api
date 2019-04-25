@@ -9,13 +9,13 @@
 
 
 ## General info
-API that can be used to get data of the best players in the Apex Legends game.
+API that can be used to get data of the best players in the Apex Legends game. All of the data comes from my own database.
 
 
 ## How to use
 
 
- Every single request to the API is a POST request<br/><br/><br/>
+ Every single request to the API is a POST request<br/>
 
  -  Getting top 100 users by **kills**:
 
