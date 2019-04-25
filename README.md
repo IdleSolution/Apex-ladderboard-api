@@ -1,9 +1,18 @@
-[](http://www.dota2.com/leaderboards/)
-
-### Apex Legends Leaderboard API
+## Apex Legends Leaderboard API
 
 
-**How to use**
+## Table of contents
+* [General info](#general-info)
+* [How to use](#how-to-use)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+
+## General info
+API that can be used to get data of the best players in the Apex Legends game.
+
+
+## How to use
 
 
  Every single request to the API is a POST request<br/><br/><br/>
@@ -49,7 +58,7 @@ Example of data you get (the order depends on the request):
 <br />
 
 
-## Adding and updating new users 
+**Adding and updating new users** 
  - My API takes data from my own database so it may not contain every
    user. To add someone manually, you will need to call:
 
@@ -74,5 +83,22 @@ The body of both update and get requests takes following parameters:
 > **platform** - the platform the user plays on<br/>
 > **authorization** - authorization key which you will need to get from <a href="http://api.mozambiquehe.re/getkey">here</a>
 
+
+
+## Technologies
+* Node.js - version 10.10.0
+
+
+## Setup
+
+* Install all neccessary dependencies:<br/>
+
+        npm run install
+
+* Run in development mode:<br/>
+
+		npm run start server
+
+To run on your machine, you will need your own database that you have to setup in models/passwords.js file
 
 
