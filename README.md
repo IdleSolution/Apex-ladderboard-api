@@ -87,6 +87,7 @@ The body of both update and get requests takes following parameters:
 
 ## Technologies
 * Node.js - version 10.10.0
+* PostgreSQL
 
 
 ## Setup
